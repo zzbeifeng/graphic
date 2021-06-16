@@ -3,6 +3,10 @@
 
 #include "../includes/glog/logging.h"
 #include "kkWindow.h"
+#include "platform/kkPlatformMacors.h"
+
+
+NS_KK_BEGIN
 
 class kkApplication
 {
@@ -16,5 +20,7 @@ public:
     void init();
     void unInit();
 };
+
+NS_KK_END
 
 #endif

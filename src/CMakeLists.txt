@@ -10,6 +10,7 @@ find_package(ASSIMP REQUIRED)
 message(STATUS "Found ASSIMP in ${ASSIMP_INCLUDE_DIR}")
 find_package (glog 0.5.0 REQUIRED)
 
+
 INCLUDE_DIRECTORIES(/System/Library/Frameworks)
 
 #定义库

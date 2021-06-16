@@ -1,4 +1,6 @@
-#include  "kkApplication.h"
+#include "kkApplication.h"
+
+USING_NS_KK;
 
 kkApplication::kkApplication()
 {
@@ -14,6 +16,8 @@ kkApplication::~kkApplication()
 void kkApplication::init(){
  
     LOG(INFO) << "init";
+     
+    kklog("Test %d \n",20);
 
     window.show();
 
